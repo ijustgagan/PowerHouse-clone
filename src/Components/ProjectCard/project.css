@@ -1,0 +1,1247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, Edge */
+}
+
+.main{
+    width: 100vw;
+    height: 180vh;
+    /* background-color: aqua; */ 
+    position: relative;
+}
+
+.page1{
+    height: 180vh;
+    width: 100vw;
+    background-color: rgb(44, 75, 75);
+    position: relative;
+}
+
+.header{
+    height: 50vh;
+    width: 40vw;
+    padding: 5vh 3vw;
+}
+
+.header .headerContent1{
+    color: white;
+    font-weight: 400;
+    font-size: 1.5vw;
+
+}
+.header .headerContent2{
+    color: white;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 6vw;  
+}
+
+.page1 .crossBtn{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(225, 226, 227);
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.crossBtn .icon1{
+    font-size: 2vw;
+}
+
+.page2{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: rgb(223, 28, 28) */
+}
+
+.page2 .text{
+    width: 100vw;
+    height: 35vh;
+    /* background-color: blueviolet; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 10vh;
+}
+
+.page2 .text .textContent{
+    width: 45vw;
+    height: 35vh;
+}
+
+.page2 .text .textContent .para{
+    padding-top: 5vh;
+    font-size: 1.80879vw;
+    line-height: 1.3;
+}
+
+.page2 .Info {
+    width: 95vw;
+    height: 8vh;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    border-bottom: 1px solid rgba(218, 216, 216, 0.856);
+}
+
+.page2 .Info .Infoheader{
+    padding: 1vh 0.8vw;
+    font-size: 1.3vw;
+}
+
+.page2 .flexBox{
+    width: 100vw;
+    height: 30vh;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: auto;
+    gap: 5px; 
+
+}
+
+.flexBox div{
+    height: 12vh;
+    width: 15vw;
+    /* background-color:white; */
+    margin-left: 3.2vw;
+    padding: 1.5vh 0;
+}
+
+.flexBox h2{
+   font-size: 1.3vw;
+   margin-bottom: 1vh;
+}
+
+.flexBox p{
+    font-size: 1.3vw;
+}
+
+
+.page3{
+    height: 180vh;
+    width: 100vw;
+    /* background-color:rgb(184, 116, 16); */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.page3 .thirdPageImage{
+    width: 75vw;
+    height: 150vh;
+    background-color: aqua;
+    margin-right: 2.5vw;
+}
+
+.page4{
+    width: 100vw;
+    height: 180vh;
+    /* background-color: aqua; */
+}
+
+.page4 .mainText{
+    width: 100vw;
+    height: 80vh;
+}
+
+.page4 .mainText .textHeader{
+    width: 70vw;
+    height: 25vh;
+    /* background-color: rgb(107, 7, 7); */
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7vh 3vw;
+    line-height: 1.2;
+}
+
+.page4 .mainText .ImageAndName{
+    display: flex;
+}
+.page4 .mainText .smallImageDiv{
+    width: 3vw;
+    height: 6vh;
+    background-color: bisque;
+    margin: 1vh 0 0 3vw;
+}
+
+.page4 .mainText .nameHeader{
+    font-size: 1vw;
+    margin: 2vh 1vw;
+    border-bottom: 0.2vh solid rgba(116, 114, 114, 0.733);
+}
+
+.page4 .ImageAndDesc{
+    width: 94vw;
+    height: 110vh;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.page4 .ImageAndDesc .Image{
+    width: 47vw;
+    height: 100vh;
+    background-color: brown;
+}
+
+.page4 .ImageAndDesc .Desc{
+    width: 47vw;
+    height: 90vh;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+}
+
+.page4 .ImageAndDesc .Desc .DescText{
+    width: 30vw;
+    height: 80vh;
+    /* background-color: rgb(126, 77, 14); */
+}
+
+.page4 .ImageAndDesc .Desc .DescText .DescTextHeader{
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 70px;
+}
+
+.page4 .ImageAndDesc .Desc .DescText .DescPara{
+    font-size: 1.6vw;
+    line-height: 1.3;
+}
+
+.page5{
+    height: 170vh;
+    width: 100vw;
+    /* background-color: aqua; */
+}
+
+.page5 .slideBar{
+    width: 94vw;
+    height: 120vh;
+    margin: 0 auto;
+    background-color: rgb(201, 161, 161);
+}
+
+.page5 .slidebox{
+    width: 95vw;
+    height: 55vh;
+    /* background-color: blue; */
+    margin: 0 auto;
+}
+
+.page5 .slidebox .slideDiscBox{
+    width: 30vw;
+    height: 50vh;
+    /* background-color: blueviolet; */
+    float: right;
+}
+
+.page5 .slidebox .slideDiscBox .slideDiscPara{
+    margin-top: 5vh;
+    font-size: 1.4vw;
+    line-height: 1.3;
+}
+
+.page5 .slidebox .slideDiscBox .slideDiscPara .span{
+    font-weight: 600;
+}
+
+.page6{
+    width: 100vw;
+    height: 230vh;
+    /* background-color: rgb(217, 255, 0); */
+}
+
+.page6 .textBox{
+    width: 80vw;
+    height: 50vh;
+    /* background-color: blue; */
+    float: right;
+
+}
+
+
+.page6 .textBox .textContentBox{
+    width: 77vw;
+    height: 37vh;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.page6 .textBox .textContentBox .textBoxPara{
+    font-size: 3vw;
+    line-height: 1.2;
+}
+
+.page6 .textBox .textContentBox .smallImageDiv{
+    margin-top: 2vh ;
+    width: 4vw;
+    height: 7vh;
+    background-color: aquamarine;
+}
+
+.page6 .textBox .textContentBox .nameHeader{
+    display: inline;
+    border-bottom: 1px solid rgba(116, 114, 114, 0.733);
+    margin: 10vh 5vw;
+}
+
+.page6 .textBox .textContentBox .nameHeader{
+    font-size: 1vw;
+    position: absolute;
+    top: 17vh;
+}
+
+.page6 .ImageDiv{
+    width: 76vw;
+    height: 150vh;
+    background-color: brown;
+    float: right;
+    margin-right: 2.8vw;
+    
+}
+
+.page7{
+    width: 100vw;
+    height: 101vh;
+    /* background-color: aqua; */
+}
+
+.page7 .mainTextBox{
+    width: 50vw;
+    height: 15vh;
+    /* background-color: azure; */
+    margin: 0 auto;
+}
+
+.page7 .mainTextBox .mainTextPara{
+    font-size: 5vw;
+}
+
+.page7 .ButtonBox{
+    width: 18vw;
+    height: 10vh;
+    /* background-color: bisque; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page7 .ButtonBox .btn{
+    outline: none;
+    border: none;
+    border-radius: 2vw;
+    padding: 2vh 2vw;
+    /* background-color: rgb(225, 226, 227); */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.page7 .ImageAndContent{
+    width: 100vw;
+    height: 76vh;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.page7 .ImageAndContent .textArea{
+    width:50vw;
+    height: 76vh;
+    /* background-color: aquamarine; */
+}
+
+.page7 .ImageAndContent .ImageArea{
+    width:50vw;
+    height: 76vh;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.page7 .ImageAndContent .ImageArea .Image{
+    width: 30vw;
+    height: 60vh;
+    background-color: brown;
+    margin-right: 2.5vw;
+}
+
+.page7 .ImageAndContent .textArea .content1{
+    width: 12vw;
+    height: 6vh;
+    /* background-color: bisque; */
+    margin: 10vh 2vw;
+}
+
+.page7 .ImageAndContent .textArea .content1 .para{
+    font-size: 2.1vw;
+    border-bottom: 0.1vw solid black;
+    
+}
+
+.page7 .ImageAndContent .textArea .content2{
+    width: 13vw;
+    height: 15vh;
+    /* background-color: cadetblue; */
+    margin: 37vh 2vw;
+}
+
+.page7 .ImageAndContent .textArea .content2 .para1{
+    font-size: 4.5vw;
+}
+
+.page7 .ImageAndContent .textArea .content2 .para{
+    font-size: 1.4vw;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    body{
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .main{
+        width: 100vw;
+        height: 100%;
+        /* background-color: aqua; */
+        position: relative;
+    }
+    
+    .page1{
+        height: 80vh;
+        width: 101vw;
+        /* background-color: rgb(44, 75, 75); */
+        position: relative;
+    } 
+    
+    .header{
+        height: 70vh;
+        width: 100vw;
+        padding: 6vh 9vw;
+        /* background-color: aqua; */
+    }
+    
+    .header .headerContent1{
+        font-weight: 400;
+        font-size: 4vw;
+        margin-bottom: 3vh;
+    
+    }
+    .header .headerContent2{
+        font-weight: 400;
+        line-height: 1.2;
+        font-size: 11vw;  
+    }
+    
+    .page1 .crossBtn{
+        width: 30px;
+        height: 30px;
+        right: 15px;
+        top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .crossBtn .icon1{
+        font-size: 4vw;
+    }
+
+
+     .page2{
+        height: 80vh;
+        width: 100vw;
+        /* background-color: rgb(226, 160, 160) */
+    }
+    
+    .page2 .text{
+        width: 100vw;
+        height: 23vh;
+        /* background-color: blueviolet; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .page2 .text .textContent{
+        width: 75vw;
+        height: 23vh;
+        /* background-color: brown; */
+    }
+    
+    .page2 .text .textContent .para{
+        padding-top: 1vh;
+        font-size:5vw;
+        line-height: 1.3;
+    }
+    
+    .page2 .Info {
+        width: 95vw;
+        height: 3vh;
+        margin: 0 auto;
+        /* background-color: aqua; */
+        border-bottom: 1px solid rgba(218, 216, 216, 0.856);
+        margin-top: -7vh ;
+    }
+    
+    .page2 .Info .Infoheader{
+        padding: -1vh 0.8vw;
+        font-size: 4vw;
+    }
+    
+    .page2 .flexBox{
+        width: 100vw;
+        height: 51vh;
+        /* background-color: blue; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: auto;
+    
+    }
+    
+    .flexBox div{
+        height: 0.4vh;
+        width: 50vw;
+        margin-left: 3.4vw;
+        padding: 1.5vh 0;
+        /* background-color: brown; */
+    }
+    
+    .flexBox h2{
+       font-size: 3vw;
+    } 
+    .flexBox p{
+        font-size: 3vw;
+    }
+
+    .page3{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: brown; */
+    }
+    
+    .page3 .thirdPageImage{
+        width: 90vw;
+        height: 40vh;
+        background-color: rgb(69, 82, 68);
+        margin-right: 2.5vw;
+    }
+
+    .page4{
+        width: 100vw;
+        height: 110vh;
+        /* height: 100%; */
+        /* background-color: rgb(226, 43, 43); */
+        /* background-color: aqua; */
+    }    
+
+     .page4 .mainText{
+        width: 100vw;
+        height: 35vh;
+        /* background-color: rgb(95, 61, 61); */
+    }
+    
+    .page4 .mainText .textHeader{
+        height: 20vh;
+        width: 95vw;
+        /* background-color: rgb(107, 7, 7); */
+        font-size: 7.5vw;
+        margin: 0 auto;
+    }
+    
+    .page4 .mainText .ImageAndName{
+        display: flex;
+    }
+    .page4 .mainText .smallImageDiv{
+        width: 11vw;
+        height: 5vh;
+        background-color: bisque;
+        margin: 6vh 0 0 6vw;
+    }
+    
+    .page4 .mainText .nameHeader{
+        font-size: 3.4vw;
+        margin: 8vh 2vw;
+        border-bottom: 0.2vh solid rgba(116, 114, 114, 0.733);
+    }
+    
+    .page4 .ImageAndDesc{
+        width: 100vw;
+        height: 70vh;
+        /* background-color: blueviolet; */
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+
+    }
+    
+   .page4 .ImageAndDesc .Image{
+        width: 90vw;
+        height: 30vh;
+        /* background-color: brown; */
+    }
+    
+     .page4 .ImageAndDesc .Desc{
+        width: 90vw;
+        height: 30vh;
+        /* background-color: burlywood; */
+        display: flex;
+        justify-content: center;
+    }
+    
+    .page4 .ImageAndDesc .Desc .DescText{
+        width: 90vw;
+        height: 40vh;
+        /* background-color: rgb(126, 77, 14); */
+    }
+    
+    .page4 .ImageAndDesc .Desc .DescText .DescTextHeader{
+        font-size: 9vw;
+        margin: 3vh 0;
+    }
+    
+    .page4 .ImageAndDesc .Desc .DescText .DescPara{
+        font-size: 4vw;
+        line-height: 1.5;
+    }
+
+    .page5{
+        width: 100vw;
+        height: 50vh;
+        /* background-color: rgb(255, 0, 255); */
+    }
+    
+    .page5 .slideBar{
+        width: 91vw;
+        height: 25vh;
+        margin: 0 auto;
+        background-color: rgb(201, 161, 161);
+    }
+    
+    .page5 .slidebox{
+        width: 91vw;
+        height: 20vh;
+        /* background-color: blue; */
+        margin: 0 auto;
+    }
+    
+    .page5 .slidebox .slideDiscBox{
+        width: 91vw;
+        height: 20vh;
+        /* background-color: blueviolet; */
+    }
+    
+    .page5 .slidebox .slideDiscBox .slideDiscPara{
+        margin-top: 2vh;
+        font-size: 3.8vw;
+        line-height: 1.3;
+    }
+    
+    .page5 .slidebox .slideDiscBox .slideDiscPara .span{
+        font-weight: 600;
+    }
+
+    .page6{
+        width: 100vw;
+        height: 100vh;
+        /* background-color: rgb(217, 255, 0); */
+    }
+    
+    .page6 .textBox{
+        width: 100vw;
+        height: 30vh;
+        /* background-color: blue; */
+    }
+    
+    .page6 .textBox .textContentBox{
+        width: 91vw;
+        height: 30vh;
+        /* background-color: antiquewhite; */
+        margin: 0 5vw;
+        position: relative;
+    }
+    
+    .page6 .textBox .textContentBox .textBoxPara{
+        font-size: 6vw;
+        line-height: 1.3;
+    }
+    
+    .page6 .textBox .textContentBox .smallImageDiv{
+        margin-top: 1vh ;
+        width: 11vw;
+        height: 5vh;
+        background-color: aquamarine;
+    }
+    
+    .page6 .textBox .textContentBox .nameHeader{
+        font-size: 3vw;
+        display: inline;
+        border-bottom: 1px solid rgba(116, 114, 114, 0.733);
+        margin: 0 15vw;
+        top: 21vh;
+    }
+    
+    .page6 .ImageDiv{
+        width: 90vw;
+        height: 60vh;
+        background-color: brown;
+        float: left;
+        margin-left: 5vw;
+        margin-top: 5vh;
+        
+    }
+
+    .page7{
+        width: 100vw;
+        height: 80vh;
+        /* background-color: rgb(255, 230, 0); */
+    }
+    
+    .page7 .mainTextBox{
+        width: 80vw;
+        height: 15vh;
+        /* background-color: azure; */
+        margin: 0 auto;
+    }
+    
+    .page7 .mainTextBox .mainTextPara{
+        font-size: 11vw;
+        text-align: center;
+    }
+    
+    .page7 .ButtonBox{
+        width: 40vw;
+        height: 7vh;
+        /* background-color: bisque; */
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .page7 .ButtonBox .btn{
+        outline: none;
+        border: none;
+        border-radius: 2vw;
+        padding: 1.7vh 10vw;
+        /* background-color: rgb(225, 226, 227); */
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 2.5vw;
+    }
+    
+    .page7 .ImageAndContent{
+        width: 100vw;
+        height: calc(100% - 22vh);
+        /* background-color: blueviolet; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+    
+    .page7 .ImageAndContent .textArea{
+        width: 91vw;
+        height: 30%;
+        /* background-color: aquamarine; */
+    }
+    
+    .page7 .ImageAndContent .ImageArea{
+        width:91vw;
+        height: 70%;
+        /* background-color: cadetblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .page7 .ImageAndContent .ImageArea .Image{
+        width: 91vw;
+        height: 80%;
+        background-color: brown;
+        margin-right: 0;
+    }
+    
+    .page7 .ImageAndContent .textArea .content1{
+        width: 45vw;
+        height: 5.5vh;
+        /* background-color: bisque; */
+        /* margin: 1vh 0; */
+    }
+    
+    .page7 .ImageAndContent .textArea .content1 .para{
+        font-size: 7vw;
+        border-bottom: 0.1vw solid black; 
+    }
+    
+    /* .page7 .ImageAndContent .textArea .content2{
+        width: 35vw;
+        height: 15vh;
+        background-color: cadetblue;
+        margin: 37vh 0vw;
+    } */
+    
+    /* .page7 .ImageAndContent .textArea .content2 .para1{
+        font-size: 11vw;
+    }
+    
+    .page7 .ImageAndContent .textArea .content2 .para{
+        font-size: 3.5vw;
+    }  */
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 577px) and (max-width: 1024px){
+    body{
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .main{
+        width: 100vw;
+        height: 100%;
+        /* background-color: aqua; */
+        position: relative;
+    }
+    
+    .page1{
+        width: 100vw;
+        height: 200vh;
+        background-color: rgb(44, 75, 75);
+        position: relative;
+    } 
+
+    .header{
+        height: 80vh;
+        width: 100vw;
+        padding: 18vh 7vw;
+        /* background-color: aqua; */
+    }
+    
+     .header .headerContent1{
+        font-weight: 300;
+        font-size: 2.5vw;
+        margin-bottom: 2.5vh;
+    
+    }
+    .header .headerContent2{
+        font-weight: 200;
+        line-height: 1.2;
+        font-size: 7vw;  
+    }
+    
+   .page1 .crossBtn{
+        width: 50px;
+        height: 50px;
+        right: 20px;
+        top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .crossBtn .icon1{
+        font-size: 2vw;
+    }
+
+
+     .page2{
+        height: 100vh;
+        width: 100vw;
+        /* background-color: rgb(226, 160, 160) */
+    }
+    
+    .page2 .text{
+        width: 100vw;
+        height: 30vh;
+        /* background-color: blueviolet; */
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    .page2 .text .textContent{
+        width: 90vw;
+        height: 23vh;
+        /* background-color: brown; */
+    }
+    
+    .page2 .text .textContent .para{
+        padding-top: 1vh;
+        font-size: 2.5vw;
+        line-height: 1.3;
+    }
+    
+    .page2 .Info {
+        width: 95vw;
+        height: 8vh;
+        margin: 0 auto;
+        /* background-color: aqua; */
+        border-bottom: 1px solid rgba(218, 216, 216, 0.856);
+    }
+    
+    .page2 .Info .Infoheader{
+        /* padding: -1vh 0.8vw; */
+        font-size: 2vw;
+    }
+    
+    .page2 .flexBox{
+        width: 100vw;
+        height: 52vh;
+        /* background-color: blue; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: auto;
+    
+    }
+    
+    .flexBox div{
+        height: 12vh;
+        width: 50vw;
+        margin-left: 3.2vw;
+        padding: 2vh 0;
+        /* background-color: brown; */
+    }
+    
+    .flexBox h2{
+       font-size: 1.8vw;
+    } 
+    .flexBox p{
+        font-size: 1.8vw;
+    }
+
+    .page3{
+        height: 150vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: brown; */
+    }
+    
+    .page3 .thirdPageImage{
+        width: 90vw;
+        height: 120vh;
+        background-color: rgb(69, 82, 68);
+        margin-right: 2.5vw;
+    }
+
+    .page4{
+        width: 100vw;
+        height: 200vh;
+        /* background-color: rgb(226, 43, 43); */
+    }    
+
+    .page4 .mainText{
+        width: 100vw;
+        height: 40vh;
+        /* background-color: rgb(95, 61, 61); */
+    }
+    
+    .page4 .mainText .textHeader{
+        height: 22vh;
+        width: 97vw;
+        /* background-color: rgb(107, 7, 7); */
+        font-size: 3.8vw;
+        margin: 0 auto;
+    }
+    
+    .page4 .mainText .ImageAndName{
+        display: flex;
+    }
+    .page4 .mainText .smallImageDiv{
+        width: 5vw;
+        height: 6vh;
+        background-color: bisque;
+        margin: 2vh 0 0 4.8vw;
+    }
+    
+    .page4 .mainText .nameHeader{
+        font-size: 1.6vw;
+        margin: 4vh 3vw;
+        /* border-bottom: 0.2vh solid rgba(116, 114, 114, 0.733); */
+    }
+    
+    .page4 .ImageAndDesc{
+        width: 100vw;
+        height: calc(100% - 40vh);
+        /* background-color: blueviolet; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    
+   .page4 .ImageAndDesc .Image{
+        width: 90vw;
+        height: 70%;
+        background-color: brown;
+    }
+    
+    .page4 .ImageAndDesc .Desc{
+        width: 90vw;
+        height: 30%;
+        /* background-color: burlywood; */
+        display: flex;
+        justify-content: start;
+    }
+    
+    .page4 .ImageAndDesc .Desc .DescText{
+        width: 90vw;
+        height: 100%;
+        /* background-color: rgb(126, 77, 14); */
+    }
+    
+    .page4 .ImageAndDesc .Desc .DescText .DescTextHeader{
+        font-size: 5vw;
+        margin: 3vh 0;
+    }
+    
+    .page4 .ImageAndDesc .Desc .DescText .DescPara{
+        font-size: 2.2vw;
+        line-height: 1.30;
+    }
+
+    .page5{
+        width: 100vw;
+        height: 120vh;
+        /* background-color: rgb(255, 0, 255); */
+    }
+    
+    .page5 .slideBar{
+        width: 90vw;
+        height: 75%;
+        margin: 0 auto;
+        background-color: rgb(201, 161, 161);
+    } 
+    
+    .page5 .slidebox{
+        width: 90vw;
+        height: 25%;
+        /* background-color: blue; */
+        margin: 0 auto;
+    }
+    
+    .page5 .slidebox .slideDiscBox{
+        width: 50%;
+        height: 100%;
+        float: left;
+        /* background-color: blueviolet; */
+    }
+    
+    .page5 .slidebox .slideDiscBox .slideDiscPara{
+        margin-top: 2vh;
+        font-size: 1.9vw;
+        line-height: 1.3;
+    }
+    
+    .page5 .slidebox .slideDiscBox .slideDiscPara .span{
+        font-weight: 500;
+    }
+
+    .page6{
+        width: 100vw;
+        height: 200vh;
+        /* background-color: rgb(217, 255, 0); */
+    }
+    
+    .page6 .textBox{
+        width: 100vw;
+        height: 25%;
+        /* background-color: blue; */
+    }
+    
+    .page6 .textBox .textContentBox{
+        width: 90vw;
+        height: 80%;
+        /* background-color: antiquewhite; */
+        /* margin: 0 5vw; */
+        position: relative;
+    }
+    
+    .page6 .textBox .textContentBox .textBoxPara{
+        font-size: 3.2vw;
+        line-height: 1.3;
+    }
+    
+    .page6 .textBox .textContentBox .smallImageDiv{
+        margin-top: 2.5vh ;
+        width: 5vw;
+        height: 7vh;
+        background-color: aquamarine;
+    }
+    
+    .page6 .textBox .textContentBox .nameHeader{
+        font-size: 1.7vw;
+        /* border-bottom: 1px solid rgba(116, 114, 114, 0.733); */
+        margin: 0 9vw;
+        top: 22vh;
+    }
+    
+    .page6 .ImageDiv{
+        width: 90vw;
+        height: 65%;
+        background-color: brown;
+        float: left;
+        margin-left: 5vw;
+        margin-top: 10vh;
+    }
+
+    .page7{
+        width: 100vw;
+        height: 160vh;
+        /* background-color: rgb(255, 230, 0); */
+    }
+    
+    .page7 .mainTextBox{
+        width: 80vw;
+        height: 18vh;
+        /* background-color: azure; */
+        margin: 0 auto;
+    }
+    
+    .page7 .mainTextBox .mainTextPara{
+        font-size: 5vw;
+        text-align: center;
+    }
+    
+    .page7 .ButtonBox{
+        width: 30vw;
+        height: 12vh;
+        /* background-color: bisque; */
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .page7 .ButtonBox .btn{
+        outline: none;
+        border: none;
+        border-radius: 2vw;
+        padding: 2.3vh 4vw;
+        /* background-color: rgb(225, 226, 227); */
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1.2vw;
+    }
+    
+    .page7 .ImageAndContent{
+        width: 100vw;
+        height: calc(100% - 30vh);
+        /* background-color: blueviolet; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+    
+    .page7 .ImageAndContent .textArea{
+        width: 90vw;
+        height: 20%;
+        /* background-color: aquamarine; */
+    }
+    
+    .page7 .ImageAndContent .ImageArea{
+        width:90vw;
+        height: 80%;
+        /* background-color: cadetblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .page7 .ImageAndContent .ImageArea .Image{
+        width: 90vw;
+        height: 100%;
+        background-color: brown;
+        margin-right: 0;
+    }
+    
+    .page7 .ImageAndContent .textArea .content1{
+        width: 20vw;
+        height: 15vh;
+        /* background-color: bisque; */
+    }
+    
+    .page7 .ImageAndContent .textArea .content1 .para{
+        font-size: 3.6vw;
+        border-bottom: 0.1vw solid black; 
+    }
+     
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
